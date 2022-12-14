@@ -1,0 +1,205 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Grid: 12 colunas */
+.col-1 {
+    width: 8.333%;
+}
+
+.col-2 {
+    width: 16.666%;
+}
+
+.col-3 {
+    width: 24.999%;
+}
+
+.col-4 {
+    width: calc(8.333% * 4);
+    /* 33.332% */
+}
+
+.col-5 {
+    width: 41.665%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.331%;
+}
+
+.col-8 {
+    width: calc(8.333% * 8);
+    /*66.664%*/
+}
+
+.col-9 {
+    width: calc(8.333% * 9);
+    /*74.997%;*/
+}
+
+.col-10 {
+    width: calc(8.333% * 10);
+    /*83.33%;*/
+}
+
+.col-11 {
+    width: calc(8.333% * 11);
+    /*91.663%;*/
+}
+
+.col-12 {
+    width: calc(8.333% * 12);
+    /*100%*/
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+
+/* clearfix: Corrigir a flutuação do float */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Espaçamento interno pré definido */
+.p-0 {
+    padding: 0;
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+.p-2 {
+    padding: 20px;
+}
+
+.p-3 {
+    padding: 40px;
+}
+
+.p-4 {
+    padding: 80px;
+}
+
+.p-5 {
+    padding: 160px;
+}
+
+/* Espaçamento externo pré definido */
+.m-0 {
+    margin: 0;
+}
+
+.m-1 {
+    margin: 10px;
+}
+
+.m-2 {
+    margin: 20px;
+}
+
+.m-3 {
+    margin: 40px;
+}
+
+.m-4 {
+    margin: 80px;
+}
+
+.m-5 {
+    margin: 160px;
+}
+
+.text-start {
+    text-align: start;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.text-start {
+    text-align: start;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    min-width: 360px;
+    max-width: 1280px;
+    /*1.366 largura da tela dos notebooks*/
+    margin: auto;
+}
+
+.display-mobile-hide {
+    display: block;
+}
+
+.display-mobile-show {
+    display: none;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.justify-evenly{
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:580px) {
+    /* [class*="col-"] {
+        width: 100%;
+    } */
+    .container{
+        width: 80%;
+    }
+
+    .display-mobile{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .display-flex-row{
+    display: flex;
+    flex-direction: row !important;
+    }
+
+    .display-mobile-hide {
+        display: none;
+    }
+
+    .display-mobile-show {
+        display: flex;
+        align-items: center;
+        padding: 8px 0px;
+    }
+}

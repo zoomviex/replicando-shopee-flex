@@ -1,0 +1,32 @@
+/* cores */
+.orange {
+    color: #f84b2f;
+}
+
+.orange-dark {
+    color: #ec2216;
+}
+
+.white {
+    color: #eee;
+}
+
+.dark {
+    color: #222;
+}
+
+.bg-orange {
+    background-color: #f84b2f;
+}
+
+.bg-orange-dark {
+    background-color: #ec2216;
+}
+
+.bg-white {
+    background-color: #eee;
+}
+
+.bg-dark {
+    background-color: #222;
+}
