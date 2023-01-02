@@ -1,5 +1,40 @@
+*{
+    font-family: Roboto,Helvetica Neue,Helvetica,Arial,文泉驛正黑,WenQuanYi Zen Hei,Hiragino Sans GB,儷黑 Pro,LiHei Pro,Heiti TC,微軟正黑體,Microsoft JhengHei UI,Microsoft JhengHei,sans-serif;
+}
+
 .lnk-top{
-    font-size: 12px;
+    font-size: 11px;
+    font-weight: 100;
     color: #fff;
 }
 
+.lnk-top:hover{
+    color: rgb(193, 192, 192);
+}
+
+#area-links-1 span{
+    margin: 0px 4px;
+}
+
+.icon{
+    color: #fff;
+    font-size: 16px;
+    margin: 0 2px;
+}
+
+.shopee-logo img{
+    width: 134px;
+    height: 50px;
+    margin: 0;
+}
+
+#area-search{
+    margin: 10px;
+}
+
+#area-search input{
+    width: 400%;
+    height: 20px;
+    padding: 16px;
+    margin: 0;
+}
